@@ -1,26 +1,26 @@
 {
-  "name": "cli-calculator-2",
-  "type": "module",
-  "version": "1.0.0",
-  "description": "",
+  "name": "cli-callculator",
+  "type":"module",
+  "version": "2.0.0",
+  "description": "Basic CLI calculator",
   "main": "index.js",
   "scripts": {
 
     "start":"node index.js",
-    "test": "echo \"error:no test specified\" && exit 1;"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "bin":"./index.js",
 
-
   "keywords": [],
-  "author": "",
+  "author": "Arsalan Joiya",
   "license": "ISC",
   "dependencies": {
     "@types/chalk": "^2.2.0",
     "@types/inquirer": "^9.0.3",
     "chalk": "^5.3.0",
-    "inquirer": "^9.2.10",
+    "inquirer": "^9.2.11",
     "node": "^20.6.0",
-    "ts": "^0.0.0"
+    "ts": "^0.2.2"
   }
 }
